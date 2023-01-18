@@ -1,0 +1,80 @@
+/* holla at your boy duckwithsunglasses.com for the css */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: black;
+}
+
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+.container h1{
+    background-color: black;
+}
+
+.buttonhouse{
+    background-color: white;
+    padding: 2%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 9vw;
+    text-align: center;
+    overflow: auto;
+}
+
+.reviews{
+    color: white;
+    display: grid;
+}
+
+.reviews h2{
+    font-size: 165%;
+}
+
+.reviews p{
+    font-size: 100%;
+}
+
+.review-subtext{
+margin-bottom: 5vh;
+}
+
+.conc p{
+    font-size: 14px;
+    color: white;
+}
+
+.kunaki-btn{
+    border: none;
+    color: white;
+    padding: 2vw 6vw;
+    font-size: 15px;
+    transition-duration: .5s;
+    border-radius: 1em;
+    min-height: 120px;
+    background-color: black;
+}
+
+.kunaki-btn:hover{
+    cursor: pointer;
+    color: #cccccc;
+    box-shadow: 0px 0px 15px black;
+    transform: scale(1.1);
+}
+
+.kunaki-btn:active{
+    cursor: pointer;
+    color: #cccccc;
+    box-shadow: 0px 0px 5px gold;
+    transform: scale(0.9);
+}

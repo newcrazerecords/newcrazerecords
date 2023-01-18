@@ -1,0 +1,74 @@
+/* fresh slate, holla your boy duckwithsunglasses.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{ /* be careful when changing these! they are global variables. */
+	--text-margin: 0.5em;
+
+	--card-margin: 2em;
+
+	--card-bg: #313131;
+}
+
+*{
+    margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+body{
+	background: #151515;
+	background-size: cover;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.title{
+	text-align: center;
+	font-size: 5em; 
+}
+
+.headings{
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: var(--text-margin);
+}
+
+hr{
+	margin: 2em 0em;
+}
+
+.card{
+	position: relative;
+	background-color: var(--card-bg);
+	width: 50%;
+	text-align: center;
+	padding: 2%;
+	border-radius: 25px;
+	border: solid rgb(91, 91, 91);
+	margin-bottom: var(--card-margin);
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+}
+
+.card img { /* for 3d parallax */
+	transform: translateZ(50px)
+}
+
+.card h1{
+	margin-bottom: var(--text-margin);
+}
+
+.name{
+	font-size: 3em;
+}
+
+.profile{
+	width: 10em;
+	height: 10em;
+	object-fit: cover;
+	border-radius: 100%;
+	border: solid rgb(91, 91, 91);
+	box-shadow: 0px 0px 50px black;
+}
