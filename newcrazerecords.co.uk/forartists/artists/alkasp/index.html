@@ -1,0 +1,53 @@
+<html>
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Artist Page</title>
+    <script language="JavaScript">
+        var alkasp="alkasp";
+ var username=prompt('Please Log in. Username:','');
+ if (username==alkasp){
+    var angus="angus";
+    password=prompt('If you are suppose to be here you have a password. Please type it now:','');
+     if (password==angus){
+         alert("click to enter your page")
+      }
+     else {
+         window.location="wrongpassword.html";
+     }
+ }
+ else {
+   window.location="wrongpassword.html";
+ }
+         </script>
+</head>
+
+<body>
+
+<h1 class="welcometxt">Welcome Back, Alkasp</h1>
+
+<hr> <!--DEFINES NEW ROW-->
+
+<div class="progress-cont">
+    <h1>Your Latest Release</h1>
+    <div class="progress">
+
+    <div class="marginprog"><div class="review"></div><p>In Review</p></div>
+
+    <div class="marginprog"><div class="approve"></div><p>Approved</p></div>
+
+    <div class="marginprog"><div class="stores"></div><p>Sent To Stores</p></div>
+</div>
+</div>
+
+<hr> <!--DEFINES NEW ROW-->
+
+<img src="cover.png" alt="Album Cover" class="cover">
+
+<div class="width-whitespace"></div>
+
+<!-- INSERT GOOGLE FORM LINK HERE -->
+<div class="submit"><a href="https://forms.gle/EFtJu4YuYDfdhVkF9" class="suba"><button class="submitbtn" target="_blank">Submit New</button></a></div>
+
+</body>
+</html>

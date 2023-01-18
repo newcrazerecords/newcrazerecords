@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* holla your boy duckwithsunglasses.com for the clean slate */
+
+:root{ /* global variables, try not to edit unless needed. */
+	--descpad: 10%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	user-select: none;
+	scroll-behavior: smooth;
+}
+
+body{
+	background: rgb(30,35,41);
+	background: linear-gradient(180deg, rgba(30,35,41,1) 0%, rgba(56,64,74,1) 100%); 
+	overflow-x: hidden;
+	box-shadow: inset 0 0 100px black;
+}
+
+.Title{
+	margin: 0;
+	white-space: nowrap;
+	font-size: 5vw;
+	text-shadow: 0px 0px 10px black;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+flex-wrap: wrap;
+}
+
+.seccontainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-wrap: wrap;
+	}
+
+.lottie{
+	position: relative;
+	fill: rgba(39,62,84,0.82);
+	transition-duration: 1s;
+	opacity: 1;
+	filter: drop-shadow(0px 0px 10px black);
+}
+
+  .Description{
+    padding-left: var(--descpad);
+    padding-right: var(--descpad);
+  }
+
+  .button{
+	border: none;
+	color: white;
+	padding: 3em;
+	font-size: 15px;
+	transition-duration: .5s;
+	border-radius: 1em;
+	background-color: black;
+	text-align: center;
+	margin-right: 1em;
+  }
+
+  .button:hover{
+    cursor: pointer;
+    color: #cccccc;
+    box-shadow: 0px 0px 15px black;
+    transform: scale(1.1);
+}
+
+.button:active{
+    cursor: pointer;
+    color: #cccccc;
+    box-shadow: 0px 0px 5px rgb(0, 30, 255);
+    transform: scale(1);
+}
+
+  .thircontainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	}
+
+	.third{
+		justify-self: center;
+	}
+
+	.navtxt{
+		margin-bottom: 1em;
+	}
